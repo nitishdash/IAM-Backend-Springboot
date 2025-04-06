@@ -1,0 +1,9 @@
+package com.nitishdash.IAM_Backend.dto;
+
+import lombok.Data;
+
+@Data
+public class AuthRequest {
+    private String username;
+    private String password;
+}
